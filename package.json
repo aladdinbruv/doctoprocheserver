@@ -1,0 +1,29 @@
+{
+  "name": "doctoprocheserv",
+  "version": "1.0.0",
+  "description": "Doctor Appointment Management System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "seed": "node src/seeds/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "doctoprocheserv": "file:",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.2"
+  }
+}
